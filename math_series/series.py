@@ -28,6 +28,11 @@ def lucas(n):
 
 
 def sum_series(a,b,num):
+    """
+    This function combine both Fibonacci & lucas series with one required parameter and two optional parameters. The required parameter will determine which element in the series to print. The two optional parameters will have default values of 0 and 1 and will determine the first two values for the series to be produced.
+
+
+    """
     if num<0:
         return("wrong value")
     elif num == 0:
